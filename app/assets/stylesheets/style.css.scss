@@ -351,12 +351,17 @@ Shortcode Content
     margin-bottom : 0;
     }
 
-.navbar-brand {
-    padding-top    : 0;
-    padding-bottom : 0px;
-    height         : 95px;
+.navbar-header {
     position: relative;
-    left: -25%;
+    height: 105px;
+    }
+
+.navbar-brand {
+    padding-top    : 0px;
+    padding-bottom : 0px;
+    height         : 105px;
+    position: absolute;
+    left: -60px;
     }
 
 .navbar-default .navbar-nav > li {
