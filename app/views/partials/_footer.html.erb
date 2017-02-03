@@ -7,17 +7,17 @@
                 <div class="col-sm-4 footer-block">
                     <div class="footer-widget widget_text">
                         <div class="footer-logo">
-                            <a href="#"><%= image_tag(image_path("logo.png"))%></a>
+                            <a href="#"><%= image_tag(image_path("logo.png"), :size => "200x95")%></a>
                         </div>
-                        <p>Continually matrix cross functional opportunities whereas ethical information. Compellingly streamline enabled human capital before resource-leveling internal or "organic".</p>
+                        <p></p>
 
                     </div>
                 </div><!-- /.col-sm-4 -->
 
                 <div class="col-sm-4 footer-block">
                     <div class="footer-widget widget_text">
-                        <h3>We work for your profit</h3>
-                        <p>Distinctively expedite viral materials rather than out-of-the-box solutions. Credibly empower revolutionary ROI rather than unique products. Collaboratively maximize principle-centered ideas before highly efficient data. Phosfluorescently.</p>
+                        <h3></h3>
+                        <p></p>
                     </div>
                 </div><!-- /.col-sm-4 -->
 
@@ -25,17 +25,19 @@
                     <div class="footer-widget widget_text">
                         <h3>Contact Us Today</h3>
                         <address>
-                            Call Us 666 777 888 OR 111 222 333<br>
-                            Send an Email on <a href="mailto:#">contact@domain.com</a><br>
-                            Visit Us 123 Fake Street- Blla 12358<br>
-                            Fake Kingdom<br>
+                            Call Us (847)-398-3977 OR (630)881-2370<br>
+                            Send an Email on <a href="mailto:MainDentalLab@comcast.net">MainDentalLab@comcast.net</a><br>
+                            Visit Us 832 E. Rand Road. #21<br>
+                            Mt. Prospect, IL 60056<br>
                         </address>
 
                         <ul class="list-inline social-links">
+                        <!--
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        -->
                         </ul>
                     </div>
                 </div><!-- /.col-sm-4 -->
@@ -50,10 +52,8 @@
             <ul class="list-inline pull-right">
                 <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Home", root_path %></li>
                 <li class="<%= 'active' if current_page?(about_path) %>"><%= link_to "About", about_path %></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="<%= 'active' if current_page?(products_path) %>"><%= link_to "Products", products_path %></li>
+                <li class="<%= 'active' if current_page?(contact_path) %>"><%= link_to "Contact", contact_path %></li>
             </ul>
         </div><!-- .container -->
     </div><!-- .copyright-section -->
