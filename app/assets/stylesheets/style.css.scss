@@ -321,7 +321,7 @@ Shortcode Content
         }
 
     .navbar-default {
-        background    : #ffffff !important;
+        background    : #f0f0ff !important;
         padding       : 10px 0;
         border-bottom : none;
         }
@@ -353,8 +353,10 @@ Shortcode Content
 
 .navbar-brand {
     padding-top    : 0;
-    padding-bottom : 0;
-    height         : 90px;
+    padding-bottom : 10px;
+    height         : 95px;
+    position: relative;
+    left: -60px;
     }
 
 .navbar-default .navbar-nav > li {
