@@ -357,16 +357,19 @@ Shortcode Content
     }
 
 .navbar-brand {
-    margin: 0;
-    padding: 0;
-    float: left;
     padding-top    : 0px;
     padding-bottom : 0px;
     height         : 105px;
-    position: absolute;
-    left: -50px;
     }
 
+.top-logo {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: -350px;
+}
 
 .navbar-default .navbar-nav > li {
     margin-right : 17px;
