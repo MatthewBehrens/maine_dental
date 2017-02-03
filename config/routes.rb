@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/home', to: 'home#index'
   get '/about', to: 'about#index'
   get '/contact', to: 'contact#index'
-  get '/services', to: 'services#index'
+  get '/products', to: 'products#index'
+  get '/products/cubex2', to: 'products#cubex2'
   
 end

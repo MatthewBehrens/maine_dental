@@ -13,9 +13,10 @@
         </div>
 
 
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="#navbar-collapse-1">
-
+            <!--
             <ul class="nav-cta hidden-xs">
                 <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i
                         class="fa fa-search"></i></a>
@@ -23,7 +24,7 @@
                         <li>
                             <div class="head-search">
                                 <form role="form">
-                                    <!-- Input Group -->
+                                    <!- - Input Group - ->
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="Type Something">
                                             <span class="input-group-btn">
@@ -36,12 +37,14 @@
                     </ul>
                 </li>
             </ul>
+            -->
 
             <ul class="nav navbar-nav navbar-right main-nav">
                 <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Home", root_path %></li>
                 <li class="<%= 'active' if current_page?(about_path) %>"><%= link_to "About", about_path %></li>
-                <li class="<%= 'active' if current_page?(services_path) %>"><%= link_to "Services", services_path %></li>
+                <li class="<%= 'active' if current_page?(products_path) %>"><%= link_to "Products", products_path %></li>
                 <li class="<%= 'active' if current_page?(contact_path) %>"><%= link_to "Contact", contact_path %></li>
+                <!--
                 <li class="dropdown m-menu-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Features
                     <span><i class="fa fa-angle-down"></i></span></a>
                     <ul class="dropdown-menu">
@@ -83,7 +86,7 @@
                         </li>
                     </ul>
                 </li>
-                
+                -->
             </ul>
 
         </div>
